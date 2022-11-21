@@ -9,13 +9,13 @@ container.width(PageItms * liWidth);
 
 $(document).ready(function () {
     $('.arrow-right').click(function () {
-        $('ul').animate({ "left": "+=100px" }, 300);
+        $('li').animate({ "left": "+=100px" }, 300);
         console.log("Ok.");
     });
 });
 $(document).ready(function () {
     $('.arrow-left').click(function () {
-        $('ul').animate({ "left": "-=100px" }, 300);
+        $('li').animate({ "left": "-=100px" }, 300);
         console.log("Ok.");
     });
 });
